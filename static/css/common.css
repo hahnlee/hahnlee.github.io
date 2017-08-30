@@ -1,0 +1,88 @@
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+body {
+  margin: 0;
+  padding: 0;
+}
+.sec-full {
+  min-height: 100vh;
+}
+.sec-v-c {
+  display: flex;
+  align-items: center;
+}
+blockquote {
+  border-left: .1rem solid #e7e9ed;
+  margin-left: 0;
+  padding: .4rem .8rem;
+  font-weight: 100;
+  font-size: 1.75rem;
+}
+section header {
+  font-size: 4rem;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  background: rgba(255, 255, 255, .95);
+  z-index: 999;
+}
+
+section header::before {
+  content: "|";
+  font-weight: 100;
+  padding: 1rem;
+}
+
+section main {
+  padding: 2rem 5rem;
+}
+
+section figure {
+  width: 40%;
+  display: inline-block;
+  padding-right: 8rem;
+  margin: 0;
+}
+
+section figure img {
+  width: 100%;
+  padding-top: 1rem;
+  box-shadow: 2rem 2rem lightblue;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  font-weight: 100;
+}
+.info h1 {
+  font-size: 3rem;
+}
+.info h2 {
+  font-weight: 400;
+}
+.location-info {
+  display: flex;
+  align-content: center;
+  padding: 1rem .5rem;
+}
+.location-info img {
+  margin-right: .5rem;
+}
+.work-info img {
+  width: 200px;
+}
+.out-links a {
+  padding: 0 .5rem;
+}
+
+@media screen and (max-width: 480px) {
+  section main {
+    padding: 5rem 1rem;
+  }
+  section figure {
+    width: 90%;
+    padding: 0;
+  }
+}
