@@ -1,3 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
 .about {
   padding: 3rem 0;
   text-align: center; }
@@ -9,14 +17,6 @@
   padding: 1rem .5rem; }
   .location-info img {
     margin-right: .5rem; }
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif; }
 .project-section {
   position: relative;
   width: 100%; }
