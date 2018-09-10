@@ -1,12 +1,25 @@
 .about {
   padding: 3rem 0;
   text-align: center; }
+  .about h1 {
+    font-size: 60px; }
 
 .out-links a {
   padding: 0 .5rem; }
 
 .location-info {
-  padding: 1rem .5rem; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: lighter;
+  padding: 1rem .5rem;
+  font-size: 24px; }
   .location-info img {
     margin-right: .5rem; }
 * {
@@ -16,7 +29,42 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: #000000;
+  color: #ffffff; }
+
+.application {
+  max-width: 1070px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1100px) {
+    .application {
+      padding: 0 15px; } }
+.tile {
+  background-color: #191a1f;
+  padding-top: 90px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  text-align: center; }
+  .tile .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0; }
+  .tile p {
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 1rem; }
+  .tile a {
+    color: #0070c9;
+    font-size: 21px;
+    text-decoration: none;
+    margin: 0 auto; }
+    .tile a:hover {
+      text-decoration: underline; }
+  .tile img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; }
 .project-section {
   position: relative;
   width: 100%; }
@@ -38,10 +86,7 @@ html, body {
       padding-left: initial; } }
 
 .project {
-  padding-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  padding-top: 2rem; }
   @media (max-width: 767px) {
     .project {
       -webkit-box-orient: vertical;
