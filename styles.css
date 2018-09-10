@@ -55,10 +55,11 @@ html, body {
     font-weight: lighter;
     margin-top: 1rem; }
   .tile a {
+    display: block;
     color: #0070c9;
     font-size: 21px;
     text-decoration: none;
-    margin: 0 auto; }
+    margin: .5rem auto; }
     .tile a:hover {
       text-decoration: underline; }
   .tile img {
